@@ -288,6 +288,7 @@
 지금까지는 deploy_env_vars에서 USE_ARGOCD를 'false'로 하였기 때문에 Jenkins에서 Kubectl로 바로 배포하였습니다.  
 이제 ArgoCD를 연동하여 배포를 해보겠습니다.   
 
+- github에 본인 git repo 작성: subrecommend-manifest라는 이름으로 작성 
 - manifest repo 작성: ArgoCD가 동기화하는 manifest가 있는 Git repo   
   sample을 이용하여 manifest repo를 작성합니다.  
   
